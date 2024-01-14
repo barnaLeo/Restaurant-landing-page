@@ -1,9 +1,44 @@
-*,
-*::after,
-*::before {
-box-sizing: border-box;
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+  box-sizing: border-box;
 }
 
 body {
-margin: 0;
+  margin: 0;
+  font-family: Arial, Helvetica;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Updated to space-between */
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+  font-size: 1.5em;
+}
+
+header ul {
+  display: flex; /* Updated to flex */
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #b2dfdb;
 }
