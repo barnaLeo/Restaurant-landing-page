@@ -19,7 +19,7 @@ ul {
 
 header {
   display: flex;
-  justify-content: space-between; /* Updated to space-between */
+  justify-content: space-between; 
   align-items: center;
   padding: 20px 50px;
   box-shadow: 0 1px 8px #ddd;
@@ -30,7 +30,7 @@ header {
 }
 
 header ul {
-  display: flex; /* Updated to flex */
+  display: flex; 
 }
 
 header a {
