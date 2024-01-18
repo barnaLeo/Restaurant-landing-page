@@ -53,3 +53,15 @@ footer {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+}
+
+.left-half {
+  flex: 1;
+}
+
+.right-half {
+  flex: 1;
+}
+
