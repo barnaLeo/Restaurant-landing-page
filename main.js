@@ -3,7 +3,7 @@ showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("slide");
+  let slides = document.querySelector('.carousel').querySelectorAll('img');
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -12,4 +12,3 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
-
