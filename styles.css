@@ -82,3 +82,11 @@ footer {
   height: 100%; /* Ensure the image takes up the full height of its container */
 }
 
+.left-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 22px;
+}
+
