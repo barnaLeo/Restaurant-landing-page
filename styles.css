@@ -110,4 +110,5 @@ button :hover {
 div#menu {
     background: #dce4e7;
     color: #1a1a1a;
+    text-decoration: none;
 }
