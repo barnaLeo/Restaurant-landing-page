@@ -121,3 +121,10 @@ div#menu {
 text-transform: capitalize;
     color: black;
 }
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color:#dce4e7;
+    margin-bottom:20px;
+}
