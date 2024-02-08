@@ -21,7 +21,7 @@ ul {
 
 header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   box-shadow: 0 1px 8px #ddd;
@@ -32,7 +32,7 @@ header {
 }
 
 header ul {
-  display: flex; 
+  display: flex;
 }
 
 header a {
@@ -50,39 +50,61 @@ footer {
   margin-top: auto;
   display: flex;
   justify-content: center;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 26px 0;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 /* Set up the flex container */
 .container {
-   text-align: right;
+  text-align: right;
   display: flex;
-  flex-direction: row; /* Items will be arranged in a row */
-  height: 80vh; /* Set the height of the container */
+  flex-direction: row;
+  /* Items will be arranged in a row */
+  height: 80vh;
+  /* Set the height of the container */
 }
 
 /* Adjust the width of the left and right parts */
-.left-part, .right-part {
-  flex: 1; /* Both parts will take up an equal amount of space */
+.left-part,
+.right-part {
+  flex: 1;
+  /* Both parts will take up an equal amount of space */
 }
 
 /* Style the carousel and its images */
 .carousel {
-  max-height: 100%; /* Set the maximum height of the carousel */
-  max-width: 100%; /* Set the maximum width of the carousel */
+  max-height: 100%;
+  /* Set the maximum height of the carousel */
+  max-width: 100%;
+  /* Set the maximum width of the carousel */
 }
 
 .carousel img {
-  max-height: 80vh; /* Set the maximum height of the images inside the carousel */
-  width: auto; /* Allow the images to scale with the available space */
+  max-height: 80vh;
+  /* Set the maximum height of the images inside the carousel */
+  width: auto;
+  /* Allow the images to scale with the available space */
 }
 
 .right-part img {
-  object-fit: cover; /* Define how the image should be resized to cover its container */
-  width: 100%; /* Ensure the image takes up the full width of its container */
-  height: 100%; /* Ensure the image takes up the full height of its container */
+  object-fit: cover;
+  /* Define how the image should be resized to cover its container */
+  width: 100%;
+  /* Ensure the image takes up the full width of its container */
+  height: 100%;
+  /* Ensure the image takes up the full height of its container */
 }
 
-.left-part{
+.left-part {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,33 +113,34 @@ footer {
 }
 
 button {
-    border: 2px solid #000;
-    color: #000;
-    padding: 8px 50px 5px 50px;
-    text-transform: uppercase;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    font-weight: bold;
-    letter-spacing: 2px;
-    display: inline-block;
-    background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  padding: 8px 50px 5px 50px;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  background: transparent;
 }
 
 button :hover {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
+
 div#menu {
-    background: #dce4e7;
-    color: #1a1a1a;
-    text-decoration: none;
-    padding: 26px;
-    display: flex;
-    justify-content: space-between;
+  background: #dce4e7;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 26px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu a {
-    text-decoration: none;
-text-transform: capitalize;
-    color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
 }
